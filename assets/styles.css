@@ -1,0 +1,100 @@
+* {
+  font-family: 'Comic Neue', cursive;
+  font-weight: 700;
+  color: #fff;
+  font-size: 1vw;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  background-image: url(../images/background.png);
+  background: rgb(57, 186, 101)
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  width: 100vw;
+}
+
+header ul {
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  list-style: none;
+  width: max-content;
+}
+
+header ul li {
+  padding: 10px;
+  font-size: 20px;
+}
+
+header ul li a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+header ul li a:hover, header ul li a:focus {
+  color: #AFAFAF;
+}
+
+h1 {
+  font-size: 5em;
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+  border-top: 1px #fff dashed;
+}
+
+.container {
+   width: 960px;
+   max-width: 100%;
+   margin: 0 auto;
+   display: flex;
+}
+
+.column {
+  flex-flow: column;
+}
+
+.main { }
+.main__logo { }
+.main__text { }
+
+.about__title {
+  text-align: center;
+}
+
+.about__content {
+  text-align: center;
+}
+
+.about-members {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.about-member {
+  padding: 20px;
+  text-align: center;
+}
+
+.about-member__photo {
+
+}
+
+.about-member__name {
+  font-size: 1.7em;
+}
