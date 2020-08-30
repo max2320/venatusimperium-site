@@ -13,8 +13,8 @@ html, body {
   scroll-behavior: smooth;
 }
 
-.bg-darker{
-  background-color: rgb(57, 186, 101);
+.bg-light{
+  background-color: rgb(31, 115, 60);
 }
 
 #main{
