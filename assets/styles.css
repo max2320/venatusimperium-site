@@ -111,6 +111,7 @@ section {
 
 .main {
  padding-top: calc(100vh * .1);
+ padding-bottom: calc(100vh * .1);
 }
 
 .main__logo {
